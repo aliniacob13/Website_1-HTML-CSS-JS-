@@ -1,1 +1,1 @@
-# Website_1-HTML-CSS-JS
+# Website_1 (HTML-CSS-JS)
