@@ -1,0 +1,32 @@
+{
+    
+      "image1":{
+        "character": "Emma Stone as Mia Dolan",
+        "description": "An aspiring actress trying to break into Hollywood while working as a barista on a studio lot.",
+        "awards": [
+          "Academy Award Nominee for Best Supporting Actress for her role in Birdman", "Academy Award Winner for Best Lead Actress for her role in La La Land", "Academy Award Nominee for Best Supporting Actress for her role in The Favourite", "Academy Award Winner for Best Lead Actress for her role in Poor Things"
+        ],
+        "funFact": "Emma Stone actually wore her own clothes for several scenes."
+      },
+      "image2":{
+        "character": "Ryan Gosling as Sebastian Wilder",
+        "description": "A passionate jazz pianist who dreams of opening his own jazz club.",
+        "awards": [
+         "Academy Award Nominee for Best Lead Actor for his role in Half Nelson", "Golden Globe for Best Lead Actor in a musical/comedy for his role in La La Land", "Academy Award Nominee for Best Lead Actor for his role in La La Land", "Academy Award Nominee for Best Supporting Actor for his role in Barbie"
+        ],
+        "funFact": "Ryan Gosling learned jazz piano specifically for this role."
+      },
+      "image4":{
+        "character": "John Legend as Keith",
+        "description": "A musician who pushes his band’s sound in a modern direction.",
+        "awards": ["Academy Award for Best Original Song"],
+        "funFact": "John Legend had to learn guitar for a more rock-inspired sound in the film."
+      },
+      "image3":{
+        "character": "J.K Simmons as Bill",
+        "description": "A strict, no-nonsense restaurant owner who hires Sebastian as a pianist but insists he stick to holiday music.",
+        "awards": ["Academy Award Winner for Best Supporting Actor for his role in Whiplash", "Academy Award Nominee for Best Supporting Actor for his role in Being the Ricardos"],
+        "funFact": "J.K. Simmons previously worked with director Damien Chazelle on 'Whiplash',for which he won an Academy Award for Best Supporting Actor."
+      }
+    
+  }

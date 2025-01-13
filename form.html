@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css?v=1.0">
+    <script src="form.js" defer></script>
+</head>
+<body class="body">
+    <div class="logoutcontainer" id="logoutButton"><a href="login.html">Log Out</a></div>
+    <div class="container">
+        <div class="div1"><h1>Hello... Someone in the Crowd!</h1></div>
+        <div class="div2"><p>Welcome to your account! If you got here, please fill these two forms. On the left side, there is a form about La La Land. You will choose whether or not to get this form.<br>On the right side, you will find a form regarding your experience while navigating through my website. If you have the time, I would really appreciate if you also fill this one!</p></div>
+        <div class="div3">
+            <form method="post" action="localStorage" tager="_self">
+                <fieldset>
+                <legend>About the movie:</legend>
+                <fieldset>
+                    <legend>Personal Data</legend>
+                    <p>
+                    <label for = "name">Full Name:</label>
+                    <input type="text" id="name" name="user_name" minlength="3" maxlength="30" required>
+                    </p>
+                    <p>
+                    <label for = "email">Email:</label>
+                    <input type="email" id="email" name="user_email" required>
+                    </p>
+                </fieldset>
+                <fieldset>
+                    <legend>About the movie:</legend>
+                    <p>
+                        <label for="name">Favourite character:</label>
+                        <input list="characters" id="character" name="character" />
+                        <datalist id="characters">
+                            <option value="Mia Dolan">
+                            <option value="Sebastian Wilder">
+                        </datalist>
+                    </p>
+                    <p>
+                        <label for="race">Favourite song from the soundtrack:</label>
+                        <select name="music" id="music" required>
+                        <option value="">Choose the song!</option>
+                          <option value="Another Day of Sun">Another Day of Sun</option>
+                          <option value="Someone in the Crowd">Someone in the Crowd</option>
+                          <option value="Mia&Sebastian's Theme">Mia&Sebastian's Theme"</option>
+                          <option value="A Lovely Night">A Lovely Night</option>
+                          <option value="Herman's Habit">Herman's Habit</option>
+                          <option value="City of Stars">City of Stars</option>
+                          <option value="Planetarium">Planetarium</option>
+                          <option value="Summer Montage / Madeline">Summer Montage / Madeline</option>
+                          <option value="City of Stars(Ryan Gosling & Emma Stone)">City of Start(Ryan Gosling & Emma Stone)</option>
+                          <option value="Start a fire">Start a fire</option>
+                          <option value="Engagement Party">Engagement Party</option>
+                          <option value="Audition(The Fools Who Dream)">Audition(The Fools Who Dream)</option>
+                          <option value="Epilogue">Epilogue</option>
+                          <option value="The End">The End</option>
+                          <option value="City of Stars (Humming)">City of Stars (Humming)</option>
+                        </select>
+                      </p>
+                      <p>
+                        <label>Would you recommend the movie to other people?</label>
+                        <input type="radio" id="recommendYes" name="recommend" value="yes" required>
+                        <label for="recommendYes">Yes</label>
+                        <input type="radio" id="recommendNo" name="recommend" value="no" required>
+                        <label for="recommendNo">No</label>
+                    </p>
+                    <p>
+                        <label for="message">What are your thoughts on the ending?</label>
+                        <textarea id="ending" name="message" maxlength="200" required></textarea>
+                    </p>
+                      <p>
+                        <label for="rating">Rating:</label>
+                        <input type="range" name="rating" id="rating" min="0" max="10" step="1" required>
+                        <span id="rating_value">0</span>
+                      </p>
+                </fieldset>
+                <p>
+                    <input type="checkbox" id="sendEmail" name="sendEmail">
+                    <label for="sendEmail">Do you want to get an email with the data that you filled?</label>
+                </p>
+                <button type="submit">Submit</button> </form>
+            </fieldset>
+        </div>
+        <div class="div4">
+            <form id="experienceForm">
+            <fieldset>
+                <legend>User Experience Feedback:</legend>
+                <p>
+                    <label for="easeOfUse">How easy was it to navigate the website?</label>
+                    <select name="easeOfUse" id="easeOfUse" required>
+                        <option value="">Choose an option</option>
+                        <option value="Very Easy">Very Easy</option>
+                        <option value="Easy">Easy</option>
+                        <option value="Neutral">Neutral</option>
+                        <option value="Difficult">Difficult</option>
+                        <option value="Very Difficult">Very Difficult</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="design">How do you rate the design of the website?(0-very bad, 10-excellent)</label>
+                    <input type="range" name="design" id="design" min="0" max="10" step="1" required>
+                    <span id="design_value">0</span>
+                </p>
+                <p>
+                    <label for="comments">Any additional comments or suggestions?</label>
+                    <textarea id="comments" name="comments" maxlength="200"></textarea>
+                </p>
+                <button type="submit">Submit</button>
+            </fieldset>
+        </form>
+    </div>
+    </div>
+</body>
+</html>
