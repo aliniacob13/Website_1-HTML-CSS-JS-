@@ -26,8 +26,8 @@ window.onload = function () {
         else if (localStorage.getItem(newUsername)) {
                 alert('Username already exists');
             } else {
-                alert(newUsername);
-                alert(newPassword);
+                //alert(newUsername);
+                //alert(newPassword);
                 localStorage.setItem(newUsername, newPassword);
                 alert('Sign-up successful! You can now log in.');
                 window.location.href = 'login.html';
