@@ -26,7 +26,7 @@ window.onload=function(){
         }
         else{
             alert('Login successful');
-            window.location.href = 'index1.html';
+            window.location.href = 'form.html';
         }
     }
     loginForm.addEventListener("submit", function(){
